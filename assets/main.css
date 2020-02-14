@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+#home {
+  background-image: url('images/me.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div {
+  font-family: "Rockwell";
+  font-size: 64px;
+  text-align: left;
+  padding-left: 10px;
+  color: rgb(47,79,79);
+  justify-content: flex-start;
+}
+
+.content {
+  display: flex;
+}
+
+.text {
+  font-size: 48px;
+  margin-top: 440px;
+  color: rgb(0,0,0);
+}
+
+.side {
+  font-size: 48px;
+  margin-top: 500px;
+  margin-left: 285px;
+  color: rgb(0,0,0);
+  justify-content: flex-end;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+i {
+  font-style: italic;
+}
+
+#side-about {
+  width: 200px;
+  height: 500px;
+  background-image: url('images/moose.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1;
+}
+
+#about {
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1;
+}
+
+#about-text {
+  font-size: 22px;
+  color: rgb(0,0,0);
+  margin-top: 30px;
+}
+
+#links {
+  color: rgba(0, 0, 0);
+  margin-top: 10px;
+  margin-right: 255px;
+  display: inline;
+}
+
+#dream {
+  color: rgb(0,64,255);
+}
+
+#dartmouth {
+  color: rgb(0,41,24);
+}
+
+#location {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 16px;
+}
+
+#whisper {
+  font-size: 14px;
+}
