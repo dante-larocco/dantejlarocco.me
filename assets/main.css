@@ -35,6 +35,11 @@ footer, header, hgroup, menu, nav, section {
   background-size: cover;
   line-height: 1;
 }
+
+#gallery {
+  line-height: 1;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -60,6 +65,14 @@ div {
   justify-content: flex-start;
 }
 
+#gallery img:hover{
+  transform: scale(1.1);
+}
+
+#gallery img{
+  filter: sepia();
+}
+
 .content {
   display: flex;
 }
@@ -76,6 +89,7 @@ div {
   margin-left: 285px;
   color: rgb(0,0,0);
   justify-content: flex-end;
+  text-align: right;
 }
 
 a {
@@ -87,10 +101,35 @@ i {
   font-style: italic;
 }
 
+.bottom-right {
+  position: absolute;
+  right: 17.5px;
+}
+
+#top {
+  bottom: 110px;
+}
+
+#bot {
+  bottom: 10px;
+}
+
+#mid {
+  bottom: 60px;
+}
+
 #side-about {
-  width: 200px;
-  height: 500px;
-  background-image: url('images/moose.jpg');
+  margin-left: 75px;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1;
+}
+
+#side-gallery {
+  margin-left: 75px;
+  margin-top: 500px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -112,7 +151,7 @@ i {
 #links {
   color: rgba(0, 0, 0);
   margin-top: 10px;
-  margin-right: 255px;
+  margin-right: 290px;
   display: inline;
 }
 
@@ -128,6 +167,25 @@ i {
   padding: 0px;
   margin: 0px;
   margin-top: 16px;
+}
+
+#moose {
+  transform: scaleX(-1);
+}
+
+#gallery-text {
+  position: fixed;
+  margin-top: 100px;
+}
+
+#gallery-specific-text {
+  position: fixed;
+  margin-top: 0px;
+}
+
+.text h3 {
+  color: rgb(128,128,128);
+  font-size: 16px;
 }
 
 #whisper {
