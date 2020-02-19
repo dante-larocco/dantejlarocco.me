@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 #home {
-  background-image: url('/images/me.png');
+  background-image: url('images/me.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
