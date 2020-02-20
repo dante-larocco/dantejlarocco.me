@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery | Dante LaRocco</title>
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body id="gallery-specific">
+    <div class="content">
+      <container>
+        <div id="name">
+          <a href="/index.html">Dante LaRocco</a>
+        </div>
+        <container id="img-a"></container>
+        <script>
+          var img = window.location.href.replace(/\D/g,'');
+          var url = "../gallery-snips.html #" +img;
+          $(function() {
+            $("#img-a").load(url);
+          });
+        </script>
+      </container>
+      <div class="side" id="side-gallery">
+        <a href="/assets/pages/gallery.html" class="bottom-right" id="bot">Gallery</a>
+      </div>
+      <script>
+        $("#name").hide().fadeIn(500);
+        $("container").hide().fadeIn(1500);
+        $(".side").hide().fadeIn(2000);
+        const PHOTOS = 27;
+        var img = window.location.href.replace(/\D/g,'');
+        $(this).on('keydown', function(pressed) {
+          if (event.keyCode == 39) {
+            if (img + 1 != PHOTOS) img++;
+            var url = "../gallery-snips.html #" +img;
+            $(function() {
+              $("#img-a").load(url);
+            });
+            $("container").hide().fadeIn(1500);
+          } else if(event.keyCode == 37) {
+            if (img - 1 != 0) img--;
+            var url = "../gallery-snips.html #" +img;
+            $(function() {
+              $("#img-a").load(url);
+            });
+            $("container").hide().fadeIn(1500);
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>
