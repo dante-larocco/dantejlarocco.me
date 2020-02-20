@@ -190,6 +190,7 @@ i {
 #gallery-text {
   position: fixed;
   margin-top: 45px;
+  display: inline;
 }
 
 #gallery-specific-text {
@@ -200,11 +201,6 @@ i {
 .text h3 {
   color: rgb(128,128,128);
   font-size: 16px;
-  display: inline;
-}
-
-h2 {
-  display: inline;
 }
 
 .whisper {
