@@ -70,17 +70,13 @@ div {
   filter: sepia(0);
 }
 
-#gallery img{
-  filter: sepia(.75);
-}
-
 .content {
   display: flex;
 }
 
 .text {
   font-size: 48px;
-  margin-top: 440px;
+  margin-top: 425px;
   color: rgb(0,0,0);
 }
 
@@ -93,9 +89,26 @@ div {
   text-align: right;
 }
 
+.avoid {
+  pointer-events: none;
+}
+
+.gallery-image {
+  pointer-events: all;
+  filter: sepia(.75);
+}
+
 a {
   color: inherit;
   text-decoration: inherit;
+}
+
+#name {
+  margin-top: 15px;
+}
+
+#name-gallery-specific {
+  margin-top: 9px;
 }
 
 i {
@@ -146,7 +159,7 @@ i {
 #about-text {
   font-size: 22px;
   color: rgb(0,0,0);
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #links {
@@ -176,12 +189,13 @@ i {
 
 #gallery-text {
   position: fixed;
-  margin-top: 100px;
+  margin-top: 45px;
+  display: inline;
 }
 
 #gallery-specific-text {
   position: fixed;
-  margin-top: 0px;
+  margin-top: -10px;
 }
 
 .text h3 {
@@ -189,6 +203,6 @@ i {
   font-size: 16px;
 }
 
-#whisper {
+.whisper {
   font-size: 14px;
 }

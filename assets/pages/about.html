@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>About | Dante LaRocco</title>
-    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
 
   <body id="about">
     <div class="content">
       <container>
-        <div class="name">
-          <a href="index.html">Dante LaRocco</a>
+        <div id="name">
+          <a href="/index.html">Dante LaRocco</a>
         </div>
         <div class="text" id="about-text">
           <h1>I'm Dante, a 20 year old <a href="https://web.cs.dartmouth.edu/">Computer Science</a> student at <a href="#" id="dartmouth">Dartmouth College</a>.</h1>
@@ -26,31 +26,31 @@
           <h1>I think my music taste is somewhat eclectic. My current favorite band is the Grateful Dead. I also really like groups like BROCKHAMPTON, Cream, Coast Modern and OK GO.
             Chance the Rapper, Kanye West, Jim Morrison and Vince Staples are some of my favorite artists. My favorite rap album is Acid Rap.</h1>
           <h1>If you're into the Dead, some of my favorite shows are Veneta '72, Giza '78, Palo Alto '82, Alpine Valley '89, and Oakland '91. Cornell '77 is a must.</h1>
-          <h1 id="whisper">psst... try clicking on some things!</h1>
-          <img src="../assets/images/pin.png" id="location"> Paris, France. <i>Parlez-vous Fran&#231;ais?</i></img>
+          <h1 class="whisper">psst... try clicking on some things!</h1>
+          <img src="/assets/images/icons/pin.png" id="location"> Paris, France. <i>Parlez-vous Fran&#231;ais?</i></img>
         </div>
-        <div class="name">
+        <div>
           <h1 id="links"> My Links:</h1>
-          <a href="https://www.linkedin.com/in/dantejlarocco/" class="contact"><img src="../assets/images/link.png"></img></a>
-          <a href="mailto:dante.22@dartmouth.edu?subject=Hi%20Dante!" class="contact"><img src="../assets/images/origami.png"></img></a>
-          <a href="https://github.com/dante-larocco" class="contact"><img src="../assets/images/Github-Mark-64px.png"></img></a>
-          <a href="https://instagram.com/lante_darocco" class="contact"><img src="../assets/images/instagram.png"></img></a><br>
-          <h1 id="whisper" style="margin-left: 75px;">Icons used with &hearts; from <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></h1>
+          <a href="https://www.linkedin.com/in/dantejlarocco/" class="contact"><img src="/assets/images/icons/link.png"></img></a>
+          <a href="mailto:dante.22@dartmouth.edu?subject=Hi%20Dante!" class="contact"><img src="/assets/images/icons/origami.png"></img></a>
+          <a href="https://github.com/dante-larocco" class="contact"><img src="/assets/images/icons/GitHub-Mark-64px.png"></img></a>
+          <a href="https://instagram.com/lante_darocco" class="contact"><img src="/assets/images/icons/instagram.png"></img></a><br>
+          <h1 class="whisper" style="margin-left: 75px;">Icons used with &hearts; from <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a></h1>
         </div>
       </container>
       <div class="side" id="side-about">
-        <img src="../assets/images/moose340x643.jfif" title="Me! With a moose!" id="moose"></img>
-        <a href="index.html" class="bottom-right" id="top">Home</a>
+        <img src="/assets/images/about-images/moose340x643.jfif" title="Me! With a moose!" id="moose"></img>
+        <a href="/index.html" class="bottom-right" id="top">Home</a>
         <a href="gallery.html" class="bottom-right" id="mid">Gallery</a>
-        <a href="cv.html" class="bottom-right" id="bot">R&eacute;sum&eacute;</a>
+        <a href="../files/cv.pdf" class="bottom-right" id="bot">R&eacute;sum&eacute;</a>
       </div>
       <script>
-        $(".name").hide().fadeIn(1000);
-        $(".text").hide().fadeIn(2000);
-        $("#links").hide().fadeIn(2000);
-        $(".contact").hide().fadeIn(2000);
-        $("#location").hide().fadeIn(2500);
-        $(".side").hide().fadeIn(4000);
+        $(".text").hide().fadeIn(1000);
+        $("#links").hide().fadeIn(1000);
+        $(".contact").hide().fadeIn(1000);
+        $("#location").hide().fadeIn(1250);
+        $(".whisper").hide().fadeIn(1500);
+        $(".side").hide().fadeIn(2000);
       </script>
     </div>
   </body>
