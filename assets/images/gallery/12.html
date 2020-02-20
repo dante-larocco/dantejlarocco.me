@@ -10,10 +10,10 @@
   <body id="gallery-specific">
     <div class="content">
       <container>
-        <div class="name">
+        <div id="name">
           <a href="/index.html">Dante LaRocco</a>
         </div>
-        <img src="12.jpg" class="gallery-image" width="800" height="480" title="This was what we woke up when we stayed at Waimanu. So wonderful"/>
+        <a href="12.jpg"><img src="12.jpg" class="gallery-image" width="800" height="480" title="This was what we woke up when we stayed at Waimanu. So wonderful"/></a>
         <div class="text" id="gallery-specific-text">
           <h1>Sunrise over Paradise</h1>
           <h3>Waimanu Valley, Hawaii, December 2019. Photo by Max Teszler.</h3>
@@ -25,10 +25,17 @@
         <a href="assets/pages/gallery.html" class="bottom-right" id="bot">Gallery</a>
       </div>
       <script>
-        $(".name").hide().fadeIn(500);
+        $("#name").hide().fadeIn(500);
         $(".gallery-image").hide().fadeIn(1500);
         $(".text").hide().fadeIn(1000);
         $(".side").hide().fadeIn(2000);
+        $(this).on('keypress', function(event) {
+          if (event.keyCode == 39) {
+            window.location.href("13.html");
+          } else if(event.keyCode == 37) {
+            window.location.href("11.html");
+          }
+        });
       </script>
     </div>
   </body>

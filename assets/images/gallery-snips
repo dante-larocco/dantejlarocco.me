@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery | Dante LaRocco</title>
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <container id="4">
+    <a href="4.JPG"><img src="4.JPG" class="gallery-image" width="800" height="480" title="Lindsay (Pat's girlfriend), Pat, myself, and Malcolm just chillin'"/></a>
+    <div class="text" id="gallery-specific-text">
+      <h1>Chilling</h1>
+      <h3>Mahwah, New Jersey, December 2017. Photo by Jack Brand.</h3>
+    </div>
+  </container>
+  <container id="5">
+    <a href="5.jpg"><img src="5.jpg" class="gallery-image" width="800" height="480" title="We had to grind for this view! A spider-infested, treacherous 8-mile hike with Plenty Shark"/></a>
+    <div class="text" id="gallery-specific-text">
+      <h1>Vista above Waimanu Valley</h1>
+      <h3>Waimanu Valley, Hawaii, December 2019. Photo by Margaret Nichols.</h3>
+    </div>
+  </container>
+  <container id="6">
+    <a href="6.JPG"><img src="6.JPG" class="gallery-image" title="After finishing the last day of Trips 2019, Lodj climbed on top of the Lodj and just kinda chilled." width="800" height="480"/></a>
+    <div class="text" id="gallery-specific-text">
+      <h1>Post-Trips Lodj Climb</h1>
+      <h3>Moosilauke Ravine Lodge, Warren, New Hampshire, September 2019. Photo by Sophie Smith.</h3>
+    </div>
+  </container>
+  <container id="11">
+    <a href="11.jpg"><img src="11.jpg" class="gallery-image" width="800" height="480" title="My fam! Max, Ava (Max's girlfriend), my mom, my Baba, me, and Domenica"/></a>
+    <div class="text" id="gallery-specific-text">
+      <h1>Gang's all here!</h1>
+      <h3>Torne Valley Vineyards, Hillburn, New York, November 2019. Photo by random passerby.</h3>
+    </div>
+  </container>
+  <container id="12">
+    <a href="12.jpg"><img src="12.jpg" class="gallery-image" width="800" height="480" title="This was what we woke up when we stayed at Waimanu. So wonderful"/></a>
+    <div class="text" id="gallery-specific-text">
+      <h1>Sunrise over Paradise</h1>
+      <h3>Waimanu Valley, Hawaii, December 2019. Photo by Max Teszler.</h3>
+    </div>
+  </container>
+  <container id="13">
+    <img src="13.jpg" class="gallery-image" width="800" height="480" title="Chieftains mobbing it up in French Canada. Parlez-vous?"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Whole Lotta</h1>
+      <h3>Montr&eacute;al, Canada, 2019. Photo by random passerby.</h3>
+    </div>
+  </container>
+  <container id="14">
+    <img src="14.jpg" class="gallery-image" width="800" height="480" title="I spent one of my first days working my summer job using razor blades to remove decals from a truck. I dropped one of the blades and it landed like this"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Hey Rich</h1>
+      <h3>FreshLine Produce, LLC., Mahwah, New Jersey. June 2019. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="16">
+    <img src="16.jpg" class="gallery-image" width="800" height="480" title="I took this while on a dinner cruise for a work party. It was a great party :)"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Vince the Folder</h1>
+      <h3>Hudson River, New Jersey, August 2019. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="17">
+    <img src="17.jpg" class="gallery-image" width="800" height="480" title="View across the Champs-Elysees. I liked the poster and thought it looked edgy"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Haute Couture is Dead</h1>
+      <h3>Paris, France, January 2020. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="23">
+    <img src="23.jpg" class="gallery-image" width="800" height="480" title="I was doing work on 4FB when I decided to take a break and look out the window"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Baker Tower</h1>
+      <h3>4FB, Dartmouth College, Hanover, New Hampshire, February 2019. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="27">
+    <img src="27.jpg" class="gallery-image" width="800" height="480" title="Taken during a daytrip in Amsterdam :) Love the architecture!"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Day Tripper</h1>
+      <h3>Amsterdam Centraal, Amsterdam, The Netherlands, February 2020. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="28">
+    <img src="28.jpg" class="gallery-image" width="800" height="480" title="The view from the top of the belltower of Arras Cathedral"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>View over Arras</h1>
+      <h3>Arras Cathedral, Arras, France, January 2020. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="31">
+    <img src="31.jpg" class="gallery-image" width="800" height="480" title="Taken on a fun day hike to Mount Cannon. Unexpected lunch location due to gnasty gnats"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Tomato Basil Cheese</h1>
+      <h3>Mt. Cannon, Grafton, New Hampshire, September 2019. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="32">
+    <img src="32.jpg" class="gallery-image" width="800" height="480" title="First snow storm living in our new apartment :)"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Torne Valley</h1>
+      <h3>Torne Valley Vineyards, Hillburn, New York, December 2019. Photo by my mom.</h3>
+    </div>
+  </container>
+  <container id="33">
+    <img src="33.jpg" class="gallery-image" width="800" height="480" title="Sunset 500 feet below the Mauna Loa summit. So many other colors, this is just what we happened to catch"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Summset</h1>
+      <h3>Mauna Loa, Hawaii, December 2019. Photo by Julia Reed.</h3>
+    </div>
+  </container>
+  <container id="34">
+    <img src="34.jpg" class="gallery-image" width="800" height="480" title="I ripped my favorite pair of shorts at this cabin :("/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Cairn</h1>
+      <h3>Red Hill Cabin, Mauna Loa, Hawaii, December 2019. Photo by Caleb Benjamin.</h3>
+    </div>
+  </container>
+  <container id="35">
+    <img src="35.JPG" class="gallery-image" width="800" height="480" title="Pre-Jubel, Post-Trips Moosilauke Sunrike with most of the 2019 Lodjlings"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Misty Morning Sunrike</h1>
+      <h3>Mount Moosilauke, Warren, New Hampshire, September 2019. Photo by Lauren Jones.</h3>
+    </div>
+  </container>
+  <container id="38">
+    <img src="38.jpg" class="gallery-image" width="800" height="480" title="Right at the end of our 8 mile hike back from Waimanu, we had to go up the steepest road in America. It was steep"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>The Gang Goes Up a Hill with Frame Packs</h1>
+      <h3>Waimanu Valley, Hawaii, December 2019. Photo by random passerby.</h3>
+    </div>
+  </container>
+  <container id="39">
+    <img src="39.jpg" class="gallery-image" width="800" height="480" title="I took a walk to Sacred Heart and lit a candle for my Baba"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Sacred Heart is a Tourist Trap</h1>
+      <h3>Sacr&eacute; C&#339;ur, Paris, France, February 2020. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="41">
+    <img src="41.JPG" class="gallery-image" width="800" height="480" title="Wylie and I were cuddling and then everyone joined in"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Cuddle Puddle</h1>
+      <h3>Croo Quarters, Moosilauke Ravine Lodj, Warren, New Hampshire, August 2019. Photo by Alisya Reza.</h3>
+    </div>
+  </container>
+  <container id="42">
+    <img src="42.jpg" class="gallery-image" width="800" height="480" title="First snowfall of my first term at Dartmouth. How peaceful"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Crunch of Feet on Snow</h1>
+      <h3>Dartmouth College, Hanover, New Hampshire, November 2018. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="45">
+    <img src="45.jpg" class="gallery-image" width="800" height="480" title="One of the last warm autumn days of my first term. No more outdoor sack :("/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Green</h1>
+      <h3>Dartmouth College, Hanover, NH, September 2018. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="46">
+    <img src="46.jpg" class="gallery-image" width="800" height="480" title="My mom told me the entire summer to go running here. I only did on the last day"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Powerlinez</h1>
+      <h3>Suffern, New York, August 2019. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="47">
+    <img src="47.JPG" class="gallery-image" width="800" height="480" title="We were listening to Hawaiian Roller Coaster Ride, driving, windows down, simply vibing"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Hawaiian Roller Coaster Ride</h1>
+      <h3>Kamuela, Hawaii, December 2019. Photo by me.</h3>
+    </div>
+  </container>
+  <container id="48">
+    <img src="48.JPG" class="gallery-image" width="800" height="480" title="Justin, Eddy, and Dante. What a powerful trio. Abby is also there but sadly not a part of the trio. Check out my thighs. 710 Experiment baby"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Groundfruit</h1>
+      <h3>Moosilauke Ravine Lodj, Warren, New Hampshire, August 2019. Photo by Lauren Jones.</h3>
+    </div>
+  </container>
+  <container id="49">
+    <img src="49.jpg" class="gallery-image" width="800" height="480" title="You're a pahoehoe, aa!!!"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>F o r b i d d e n B r o w n i e s</h1>
+      <h3>Hawaii Volcanoes National Park, Hawaii, December 2019. Photo by Carly Tymm.</h3>
+    </div>
+  </container>
+  <container id="50">
+    <img src="50.jpg" class="gallery-image" width="800" height="480" title="The moon landing was fake and they did it on Mauna Loa"/>
+    <div class="text" id="gallery-specific-text">
+      <h1>Moon Base</h1>
+      <h3>Mauna Loa Summit Cabin, Hawaii, December 2019. Photo by Max Teszler.</h3>
+    </div>
+  </container>
+
+  </body>
+</html>

@@ -10,10 +10,10 @@
   <body id="gallery-specific">
     <div class="content">
       <container>
-        <div class="name">
+        <div id="name">
           <a href="/index.html">Dante LaRocco</a>
         </div>
-        <img src="5.jpg" class="gallery-image" width="800" height="480" title="We had to grind for this view! A spider-infested, treacherous 8-mile hike with Plenty Shark"/>
+        <a href="5.jpg"><img src="5.jpg" class="gallery-image" width="800" height="480" title="We had to grind for this view! A spider-infested, treacherous 8-mile hike with Plenty Shark"/></a>
         <div class="text" id="gallery-specific-text">
           <h1>Vista above Waimanu Valley</h1>
           <h3>Waimanu Valley, Hawaii, December 2019. Photo by Margaret Nichols.</h3>
@@ -25,7 +25,7 @@
         <a href="/assets/pages/gallery.html" class="bottom-right" id="bot">Gallery</a>
       </div>
       <script>
-        $(".name").hide().fadeIn(500);
+        $("#name").hide().fadeIn(500);
         $(".gallery-image").hide().fadeIn(1500);
         $(".text").hide().fadeIn(1000);
         $(".side").hide().fadeIn(2000);

@@ -1,0 +1,139 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{green}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}    
+\usepackage{pdfpages}%
+\usepackage{multicol}
+\usepackage[scale=0.8,top=0.5cm, bottom=0.1cm]{geometry}
+\usepackage{xpatch}
+\xpatchcmd\cventry{,}{}{}{}
+\definecolor{color1}{rgb}{0,0.173,0.173}% dark, dark blue
+% personal data
+\name{Dante}{LaRocco}                               
+\email{dante.22@dartmouth.edu}                            
+ \homepage{linkedin.com/in/dantejlarocco}               
+ \social[github]{dante-larocco}   
+ \address{Greater New York Area}%
+                                
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\vspace*{-1.05mm}
+\makecvtitle
+\vspace*{-15mm}
+
+\section{Education}
+\cventry{}{}{Dartmouth College}{September 2018 -- June 2022}{\hspace*{-2.5 mm} 3.58 GPA }{Major in Computer Science, minor in Quantitative Social Science}
+
+{}{Relevant Coursework:}
+\vspace{-1.0em}\begin{small}
+ \begin{multicols}{3}
+    \begin{itemize}
+\item Problem Solving via Object-Oriented Programming
+\item Foundations of Applied CS
+\item Software Design \& Implementation
+\item Discrete Mathematics for CS
+\item Algorithms
+
+    \end{itemize}
+    \end{multicols}\end{small}
+    
+{}{Activities:}
+\vspace{-1.0em}\begin{small}
+ \begin{multicols}{3}
+    \begin{itemize}
+\item The Dartmouth Data Visualization
+\item Club Swim Team
+\item Dartmouth Footbag Club
+\item \href{https://www.dreamprogram.org/}{DREAM}
+
+    \end{itemize}
+    \end{multicols}\end{small}
+    
+\cventry{}{}{Mahwah High School}{September 2014 -- June 2018}{\hspace*{-2.5 mm} High Honors, 1st decile, 4.0 GPA, Student Government Vice President}{}
+
+\section{Experience}
+
+\cventry{}{}{Inventory Management Intern}{June 2019 -- January 2020 \vspace{-1.0em}}{}{
+\hspace*{1.5 mm} \textit{FreshLine Produce, LLC., Mahwah, NJ}
+% Detailed achievements:%
+\begin{itemize}
+\item Worked to reconcile disparity with physical inventory and virtual produce inventory for record-keeping
+\item Updated inventories to current values after six-month backlog 
+\end{itemize}}
+
+\cventry{}{}{Teaching Assistant - Foundations of Applied CS}{March 2019 -- June 2019 \vspace{-1.0em}}{}{
+\hspace*{1.5 mm}\textit{Dartmouth College Computer Science Department, Hanover, NH}
+% Detailed achievements:%
+\begin{itemize}
+\item Assisted in teaching complex course material such as linear algebra fundamentals, multi-dimensional data analysis and more 
+\item Aided students in understanding applications of the course material in computer graphics, machine learning, computational biology
+and more
+\item Proctored exams and graded student work
+\end{itemize}}
+
+\section{Achievements}
+
+\cventry{}{}{MASO Scholarship}{June 2018 \vspace{-1.0em}}{}{
+% Detailed achievements:%
+\begin{itemize}
+\item Awarded to two students of the Mahwah High School Senior class for perseverance, personal character, community involvement, and written essay (blind)
+\end{itemize}}
+
+\cventry{}{}{Named a QuestBridge National College Match Finalist}{October 2017\vspace{-1.0em}}{}{
+% Detailed achievements:%
+\begin{itemize}
+\item  Commended as a student ”who has
+shown outstanding academic ability despite financial challenges”
+\item First Finalist in Mahwah
+High School history
+\end{itemize}}
+
+\section{Skills}
+\begin{multicols}{3}
+\cventry{}{}{Programming}{ \vspace{-1.0em}}{}{
+% Detailed achievements:%
+\begin{itemize}
+\item C
+\item Java
+\item JavaScript
+\item Bash
+\item HTML/CSS
+\end{itemize}}
+
+\cventry{}{}{Software}{ \vspace{-1.0em}}{}{
+% Detailed achievements:%
+\begin{itemize}
+\item MATLAB
+\item R
+\item Git
+\item Microsoft Office Suite
+\item LaTeX
+\end{itemize}}
+
+\cventry{}{}{Languages}{ \vspace{-1.0em}}{}{
+% Detailed achievements:%
+\begin{itemize}
+\item English
+\item French
+\end{itemize}}
+
+\cventry{}{}{Interpersonal}{ \vspace{-1.0em}}{}{
+% Detailed achievements:%
+\begin{itemize}
+\item Communication
+\item Leadership
+\end{itemize}}
+\end{multicols}
+  
+\end{document}
