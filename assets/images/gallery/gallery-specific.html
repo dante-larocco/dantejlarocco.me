@@ -31,7 +31,6 @@
         $(".side").hide().fadeIn(2000);
         const PHOTOS = 27;
         var img = window.location.href.replace(/\D/g,'');
-        img = img.charAt(img.length - 1);
         $(this).on('keydown', function(pressed) {
           if (event.keyCode == 39) {
             if (img + 1 != PHOTOS) img++;
@@ -39,16 +38,14 @@
             $(function() {
               $("#img-a").load(url);
             });
-            $("img").hide().fadeIn(1500);
-            $(".text").hide().fadeIn(1000);
+            $("container").hide().fadeIn(1500);
           } else if(event.keyCode == 37) {
             if (img - 1 != 0) img--;
             var url = "../gallery-snips.html #" +img;
             $(function() {
               $("#img-a").load(url);
             });
-            $("img").hide().fadeIn(1500);
-            $(".text").hide().fadeIn(1000);
+            $("container").hide().fadeIn(1500);
           }
         });
       </script>
