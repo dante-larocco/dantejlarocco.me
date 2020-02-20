@@ -17,26 +17,11 @@
         <script>
           const PHOTOS = 27;
           var img = window.location.href.replace(/\D/g,'');
-          img = img.charAt(img.length - 1);
           var url = "../gallery-snips.html #" +img;
           $(function() {
             $("#img-a").load(url);
           });
         </script>
-        <!--<img id="img-img" src="#" class="gallery-image" width="800" height="480" title="This was what we woke up when we stayed at Waimanu. So wonderful"/></a>
-        <div class="text" id="gallery-specific-text">
-          <h1>Sunrise over Paradise</h1>
-          <h3>Waimanu Valley, Hawaii, December 2019. Photo by Max Teszler.</h3>
-        </div>
-        <script>
-          if (img == 1 || img == 3 || img == 6 || img == 13 || img == 14 || img == 17 || img == 20 || img == 24) {
-            document.getElementByID("img-a").href = img +".JPG";
-            document.getElementByID("img-img").src = img +".JPG";
-          } else {
-            document.getElementByID("img-a").href = img +".jpg";
-            document.getElementByID("img-img").src = img +".jpg";
-          }
-        </script>-->
       </container>
       <div class="side" id="side-gallery">
         <a href="/assets/pages/gallery.html" class="bottom-right" id="bot">Gallery</a>
@@ -46,26 +31,18 @@
         $(".gallery-image").hide().fadeIn(1500);
         $(".text").hide().fadeIn(1000);
         $(".side").hide().fadeIn(2000);
-        /*const PHOTOS = 27;
-        //var img = window.location.href.replace(/\D/g,'');
-        //alert(img);
+        const PHOTOS = 27;
         while (img <= PHOTOS && img > 0) {
           $(this).on('keypress', function(pressed) {
             if (event.keyCode == 39) {
               if (img + 1 != PHOTOS) img++;
-
             } else if(event.keyCode == 37) {
               if (img - 1 != 0) img--;
             }
-
-            if (img == /* images which use JPG  ) {
-              getElementByID("img-a").href = img +".JPG";
-              getElementByID("img-img").src = img +".JPG";
-            } else {
-              getElementByID("img-a").href = img +".jpg";
-              getElementByID("img-img").src = img +".jpg";
-            }
-
+            var url = "../gallery-snips.html #" +img;
+            $(function() {
+              $("#img-a").load(url);
+            });
             $(".gallery-image").hide().fadeIn(1500);
             $(".text").hide().fadeIn(1000);
 

@@ -98,11 +98,6 @@ div {
   filter: sepia(.75);
 }
 
-.gallery-image img:hover{
-  transform: scale(1.1);
-  filter: sepia(0);
-}
-
 a {
   color: inherit;
   text-decoration: inherit;
