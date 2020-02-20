@@ -16,7 +16,7 @@
         <container id="img-a"></container>
         <script>
           var img = window.location.href.replace(/\D/g,'');
-          var url = "../gallery-snips.html #" +img;
+          var url = "../gallery-snips.html #" +img +" > *";
           $(function() {
             $("#img-a").load(url);
           });
@@ -27,25 +27,31 @@
       </div>
       <script>
         $("#name").hide().fadeIn(500);
-        $("container").hide().fadeIn(1500);
+        $("container #img-a").hide().fadeIn(1500);
         $(".side").hide().fadeIn(2000);
         const PHOTOS = 27;
         var img = window.location.href.replace(/\D/g,'');
         $(this).on('keydown', function(pressed) {
           if (event.keyCode == 39) {
-            if (img + 1 != PHOTOS) img++;
-            var url = "../gallery-snips.html #" +img;
-            $(function() {
-              $("#img-a").load(url);
-            });
-            $("container").hide().fadeIn(1500);
+            if (img + 1 != PHOTOS) {
+              img++;
+              var url = "../gallery-snips.html #" +img +" > *";
+              $(function() {
+                $("#img-a").load(url);
+              });
+              $("container #img-a").hide().fadeIn(1500);
+              window.location.href = "../images/gallery/gallery-specific.html?" +img;
+            }
           } else if(event.keyCode == 37) {
-            if (img - 1 != 0) img--;
-            var url = "../gallery-snips.html #" +img;
-            $(function() {
-              $("#img-a").load(url);
-            });
-            $("container").hide().fadeIn(1500);
+            if (img - 1 != 0) {
+              img--;
+              var url = "../gallery-snips.html #" +img +" > *";
+              $(function() {
+                $("#img-a").load(url);
+              });
+              $("container #img-a").hide().fadeIn(1500);
+              window.location.href = "../images/gallery/gallery-specific.html?" +img;
+            }
           }
         });
       </script>
