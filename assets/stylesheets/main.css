@@ -28,18 +28,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-#home {
-  background-image: url('images/me.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  line-height: 1;
-}
-
-#gallery {
-  line-height: 1;
-}
-
 ol, ul {
   list-style: none;
 }
@@ -65,9 +53,22 @@ div {
   justify-content: flex-start;
 }
 
-#gallery img:hover{
-  transform: scale(1.1);
-  filter: sepia(0);
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+i {
+  font-style: italic;
+}
+
+.text h3 {
+  color: rgb(128,128,128);
+  font-size: 16px;
+}
+
+.whisper {
+  font-size: 14px;
 }
 
 .content {
@@ -98,9 +99,9 @@ div {
   filter: sepia(.75);
 }
 
-a {
-  color: inherit;
-  text-decoration: inherit;
+.bottom-right {
+  position: absolute;
+  right: 17.5px;
 }
 
 #name {
@@ -109,15 +110,6 @@ a {
 
 #name-gallery-specific {
   margin-top: 9px;
-}
-
-i {
-  font-style: italic;
-}
-
-.bottom-right {
-  position: absolute;
-  right: 17.5px;
 }
 
 #top {
@@ -198,11 +190,19 @@ i {
   margin-top: -10px;
 }
 
-.text h3 {
-  color: rgb(128,128,128);
-  font-size: 16px;
+#home {
+  background-image: url('images/me.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  line-height: 1;
 }
 
-.whisper {
-  font-size: 14px;
+#gallery {
+  line-height: 1;
+}
+
+#gallery img:hover{
+  transform: scale(1.1);
+  filter: sepia(0);
 }

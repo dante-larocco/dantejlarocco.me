@@ -56,13 +56,13 @@
         <a href="../files/cv.pdf" class="bottom-right" id="bot">R&eacute;sum&eacute;</a>
       </div>
       <script>
-        $(".gallery-image").hide().fadeIn(1500);
+        $(".gallery-image").hide().fadeIn(1500); // make images, text, and side fade in
         $(".text").hide().fadeIn(1000);
         $(".side").hide().fadeIn(2000);
 
-        $('body').on('click','img',function() {
+        $('body').on('click','img',function() {  // upon clicking image in body
           var img = (this).getAttribute("src").replace(/\D/g,''); // get the # of the image
-          window.location.href = "../images/gallery/gallery-specific.html?" +img;
+          window.location.href = "../images/gallery/gallery-specific.html?" +img; // send to gallery-specific with img # in url
         })
       </script>
     </div>

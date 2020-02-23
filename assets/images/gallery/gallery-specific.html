@@ -15,9 +15,9 @@
         </div>
         <container id="img-a"></container>
         <script>
-          var img = window.location.href.replace(/\D/g,'');
-          var url = "../gallery-snips.html #" +img +" > *";
-          $(function() {
+          var img = window.location.href.replace(/\D/g,''); // get img # from URL
+          var url = "../gallery-snips.html #" +img +" > *"; // get img information from gallery-snips
+          $(function() {                                    // load in the HTML for that img in #img-a
             $("#img-a").load(url);
           });
         </script>
@@ -26,21 +26,21 @@
         <a href="/assets/pages/gallery.html" class="bottom-right" id="bot">Gallery</a>
       </div>
       <script>
-        $("container #img-a").hide().fadeIn(1500);
+        $("container #img-a").hide().fadeIn(1500);          // fade in the image, text and side
         $(".side").hide().fadeIn(2000);
-        const PHOTOS = 28;
-        var img = window.location.href.replace(/\D/g,'');
-        $(this).on('keydown', function(pressed) {
-          if (event.keyCode == 39) {
+        const PHOTOS = 28;                                  // current # of images in gallery
+        var img = window.location.href.replace(/\D/g,'');   // get img # from URL
+        $(this).on('keydown', function(pressed) {           // when a key is pressed
+          if (event.keyCode == 39) {                        // right arrow
             if (img + 1 != PHOTOS) {
-              img++;
-              var url = "../gallery-snips.html #" +img +" > *";
-              $(function() {
+              img++;                                              // increment
+              var url = "../gallery-snips.html #" +img +" > *";   // update url
+              $(function() {                                      // load in the HTML for the new image in #img-a
                 $("#img-a").load(url);
               });
-              $("container #img-a").hide().fadeIn(1500);
+              $("container #img-a").hide().fadeIn(1500);          // fade in the image & text again
             }
-          } else if(event.keyCode == 37) {
+          } else if(event.keyCode == 37) {                        // left arrow (same idea as right arrow)
             if (img - 1 != 0) {
               img--;
               var url = "../gallery-snips.html #" +img +" > *";
