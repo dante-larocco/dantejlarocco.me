@@ -1,3 +1,3 @@
 # dantejlarocco.me
 My personal website!
-> > > [dantejlarocco.me](dantejlarocco.me) < < < 
+&lt; &lt; &lt; [dantejlarocco.me](https://dantejlarocco.me) < < < 
